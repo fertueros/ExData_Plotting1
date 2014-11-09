@@ -12,3 +12,6 @@ datos$Date<-dmy(datos$Date)
 datos$Time<-hms(datos$Time)
 
 datos$DateTime <- datos$Date + datos$Time
+
+# R version 3.1.2 (2014-10-31)
+# Run in Windows 32bits
